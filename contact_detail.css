@@ -1,0 +1,43 @@
+    .container-fluid {
+        text-align: center;
+        margin: 10px;
+        padding: auto;
+    }
+    
+    .avatar {
+        vertical-align: middle;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    
+    .active {
+        background-color: #bec4c2;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    
+    .header1 {
+        background-color: #9ef0d4;
+    }
+    
+    .header2 {
+        background-color: #9ef0d4;
+    }
+    
+    .row {
+        text-align: justify;
+        ;
+    }
+    
+    .column {
+        width: 50%;
+        padding: 10px;
+        height: 150px;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
